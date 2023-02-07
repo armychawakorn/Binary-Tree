@@ -31,5 +31,4 @@ class myNode:
     return res
 
 root = myNode(2566).insert(2).insert(5).insert(6).insert(6).insert(25).insert(66).insert(20).insert(23).insert(2)
-
-print(root.inorderTraversal(root= root))
+print(root.inorderTraversal(root))
