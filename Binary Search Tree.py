@@ -1,4 +1,4 @@
-class myNode:
+class NodeJS:
   def __init__(self,data) :
     self.Left = None
     self.Right = None
@@ -7,12 +7,12 @@ class myNode:
     if self.data:
       if data < self.data:
         if self.Left is None:
-          self.Left = myNode(data)
+          self.Left = NodeJS(data)
         else:
           self.Left.insert(data)
       else:
         if self.Right is None:
-          self.Right = myNode(data)
+          self.Right = NodeJS(data)
         else:
           self.Right.insert(data)
     return self
@@ -30,5 +30,5 @@ class myNode:
       res = res + self.inorderTraversal(root.Right)
     return res
 
-root = myNode(2566).insert(2).insert(5).insert(6).insert(6).insert(25).insert(66).insert(20).insert(23).insert(2)
+root = NodeJS(2566).insert(2).insert(5).insert(6).insert(6).insert(25).insert(66).insert(20).insert(23).insert(2)
 print(root.inorderTraversal(root))
