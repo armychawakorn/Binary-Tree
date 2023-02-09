@@ -6,7 +6,7 @@ class Node:
     
 root = Node("P")
 
-root.Left = Node("O")
+root.Left = Node("Q")
 root.Left.Left = Node("L")
 root.Left.Right = Node("Y")
 root.Left.Left.Left = Node("N")
@@ -19,5 +19,5 @@ root.Right.Left = Node("W")
 root.Right.Right = Node("A")
 root.Right.Left.Left = Node("C")
 root.Right.Left.Right = Node("R")
-root.Right.Right.Left = Node("E")
+root.Right.Right.Left = Node("A")
 root.Right.Right.Right = Node("C")

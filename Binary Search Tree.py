@@ -30,5 +30,5 @@ class NodeJS:
       res = res + self.inorderTraversal(root.Right)
     return res
 
-root = NodeJS(2566).insert(2).insert(5).insert(6).insert(6).insert(25).insert(66).insert(20).insert(23).insert(2)
-print(root.inorderTraversal(root))
+Node = NodeJS(2566).insert(2).insert(5).insert(6).insert(6).insert(25).insert(66).insert(20).insert(23).insert(2)
+print(Node.inorderTraversal(Node))
